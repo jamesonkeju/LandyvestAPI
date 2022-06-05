@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Landyvest.API</name>
+    </assembly>
+    <members>
+        <member name="M:Landyvest.API.Controllers.CountryController.AddUpdateCountry(Landyvest.Services.Country.DTO.CountryDTO)">
+            <summary>
+             API for creating and updating country
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.CountryController.GetAllCountries(Landyvest.Data.Payload.CountryFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.CountryController.GetCountryById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.DataController.DataPricingLookUp(Landyvest.Services.Telecom.DTO.BundleRequestPayload)">
+            <summary>
+            The code and allowanace from lookup are not always the same. The code indicates the product's code while the allowanace indicates the bundle purchased.
+            The "network" can be "MTN", "GLO", "AIRTEL", "9mobile"
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.DealerController.RegisterDealer(Landyvest.Services.Dealer.DTO.DealerDTO)">
+            <summary>
+             API for registering, approving and creating dealers
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.EmailTemplateController.AddEmailTemplate(Landyvest.Services.Emailing.DTO.EmailTemplateViewModel)">
+            <summary>
+             API for creating and updating email template
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.EmailTemplateController.GetAllCountries(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.EmailTemplateController.GetEmailTemplateById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.FAQsController.AddUpdateQuestionAndAnswer(Landyvest.Services.FAQsDTO.DTO.NotificationLogDTO)">
+            <summary>
+             API for creating and updating country
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.FAQsController.GetAllQuestionAndAnswers(Landyvest.Data.Payload.FAQsFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionController.AddUpdateProductCommission(Landyvest.Services.Product.DTO.ProductCommission)">
+            <summary>
+             API for creating and updating Product
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionController.GetAllProductServiceCommission(Landyvest.Data.Payload.ProductCommisionFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionController.GetProductServiceById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionSuperDealerController.AddUpdateProductCommission(Landyvest.Services.ProductServiceCommissionSuperDealer.Dto.ProductServiceCommissionDto)">
+            <summary>
+             API for creating and updating Product
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionSuperDealerController.GetAllProductServiceCommission(Landyvest.Data.Payload.ProductServiceCommissionSuperDealerFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductCommisionSuperDealerController.GetProductServiceById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductController.AddUpdateProduct(Landyvest.Services.Product.DTO.ProductDto)">
+            <summary>
+             API for creating and updating Product
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductController.GetAllProduct(Landyvest.Data.Payload.ProductFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductController.GetProductById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductServicesController.AddUpdateProduct(Landyvest.Services.Product.DTO.ProductServiceDto)">
+            <summary>
+             API for creating and updating Product
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductServicesController.GetAllProductService(Landyvest.Data.Payload.ProductServiceFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Landyvest.API.Controllers.ProductServicesController.GetProductServiceById(System.Int64,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Id"></param>
+            <param name="CheckDeleted"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
